@@ -1,0 +1,35 @@
+{
+  "name": "layout-designer-project-lvl2",
+  "version": "0.0.1",
+  "description": "",
+  "private": "true",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimidroll450/layout-designer-project-lvl2.git"
+  },
+  "keywords": [
+    "music",
+    "box",
+    "hexlet-project",
+    "layout"
+  ],
+  "author": "dmitry kvashchauskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimidroll450/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/dimidroll450/layout-designer-project-lvl2#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2",
+    "stylelint": "^13.12.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0",
+    "surge": "^0.22.1"
+  }
+}
