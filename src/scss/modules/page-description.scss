@@ -1,0 +1,61 @@
+@import './../variables.scss';
+
+.page-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: $base*50 0;
+  text-align: center;
+
+  color: $color-white;
+
+  background-image: url('./../../images/banner.png');
+  background-position: center;
+  background-size: cover;
+
+  &-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 570px;
+    margin: 0 auto;
+
+    input {
+      max-width: 270px;
+      padding: $base*4 $base*5.2;
+
+      background: transparent;
+      border: 2px solid $color-dark-gray;
+      border-radius: $base;
+
+      &::placeholder {
+        color: $color-dark-gray;
+        font-weight: $fw-700;
+        font-size: 14px;
+      }
+
+      @media (max-width: $breakpoint-xs-max) {
+        margin-bottom: $base * 6;
+      }
+    }
+
+    input + input {
+      margin-left: $base * 6;
+
+      @media (max-width: $breakpoint-xs-max) {
+        margin-left: 0;
+      }
+    }
+
+    .btn {
+      width: 100%;
+      margin-top: $base * 6;
+
+      @media (max-width: $breakpoint-xs-max) {
+        margin-top: 0;
+      }
+    }
+  }
+}
