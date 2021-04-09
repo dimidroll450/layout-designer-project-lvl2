@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/dimidroll450/layout-designer-project-lvl2#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-postcss": "^9.0.0",
