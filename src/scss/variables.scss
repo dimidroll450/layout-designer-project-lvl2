@@ -1,0 +1,46 @@
+@import './../fonts/Roboto-Regular.ttf';
+@import './../fonts/Roboto-Medium.ttf';
+@import './../fonts/Roboto-Bold.ttf';
+
+@mixin roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+$base: 4px;
+
+$breakpoint-sm-min: 576px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1;
+
+// === Colors ===
+$color-black: #08020D;
+$color-gray:  #E0E0E0;
+$color-dark-gray: #CACACA;
+$color-dark: #3C3B3D;
+$color-green: #34C176;
+$color-orange: #F89202;
+$color-purple: #5328A1;
+$color-red: #95390C;
+// === /Colors ===
+
+// === Font=size ===
+$fs-7: $base * 15;
+$fs-6: $base * 14;
+$fs-5: $base * 12;
+$fs-4: 38px;
+$fs-3: 30px;
+$fs-2: $base * 6;
+$fs-1: $base * 4.5;
+$fs-small: 12.8px;
+// === /Font-size ===
+
+// === Font-weight ===
+$fw-400: 400;
+$fw-700: 700;
+// === /Font-weight ===
+
+// === Line-height ===
+$lh-90: 90px;
+$lh-57: 57px;
+$lh-45: 45px;
+$lh-27: 27px;
+// === /Line-height ===

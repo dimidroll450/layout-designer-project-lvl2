@@ -1,0 +1,64 @@
+@import './variables.scss';
+
+body {
+  @include roboto;
+
+  background-color: $color-black;
+  font-size: $fs-1;
+  line-height: 1.5;
+  color: $color-dark-gray;
+}
+
+.outer-wrap {
+  max-width: $base * 300;
+  padding: 27px 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: $fw-700;
+  font-size: $fs-7;
+  line-height: $lh-90;
+  text-transform: uppercase;
+
+  @media (max-width: $breakpoint-xs-max) {
+    font-weight: $fw-700;
+    font-size: $fs-3;
+    line-height: $lh-45;
+  }
+}
+
+h2 {
+  font-weight: $fw-700;
+  font-size: $fs-4;
+  line-height: $lh-57;
+
+  @media (max-width: $breakpoint-xs-max) {
+    font-weight: $fw-700;
+    font-size: $fs-1;
+    line-height: $lh-27;
+  }
+}
+
+a,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: $color-dark-gray;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+}

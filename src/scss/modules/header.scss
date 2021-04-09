@@ -1,0 +1,64 @@
+@import './../variables.scss';
+
+.main-nav {
+  position: relative;
+
+  align-items: center;
+  justify-content: start;
+
+  font-weight: $fw-700;
+  font-size: $fs-small;
+
+  .logo {
+    align-items: center;
+
+    &-img {
+      width: $base * 6;
+      height: $base * 6;
+    }
+
+    &-text {
+      display: block;
+      margin-left: $base * 4;
+    }
+  }
+
+  .nav {
+    margin-left: $base * 22;
+
+    .nav-wrapper {
+      align-items: center;
+      justify-content: start;
+
+      .item {
+        a {
+          &:hover {
+            color: $color-gray;
+          }
+        }
+      }
+
+      .item + .item {
+        margin-left: $base * 6;
+      }
+    }
+  }
+
+  .search {
+    position: absolute;
+
+    right: 0;
+
+    &-input {
+      width: $base * 62;
+      height: $base * 6;
+      padding: 5px 10px;
+
+      background-color: $color-dark;
+
+      border: none;
+      border-radius: 50px;
+      outline: none;
+    }
+  }
+}
