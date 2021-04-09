@@ -9,4 +9,4 @@ watch:
 	gulp watch
 
 deploy:
-	npx surge ./dist/
+	npx surge ./src/
