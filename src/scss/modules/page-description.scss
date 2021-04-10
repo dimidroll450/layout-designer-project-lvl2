@@ -3,13 +3,13 @@
 .page-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   padding: $base*50 0;
-  text-align: center;
 
   color: $color-white;
+  text-align: center;
 
   background-image: url('./../../images/banner.png');
   background-position: center;
@@ -17,13 +17,15 @@
 
   &-form {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 570px;
     margin: 0 auto;
 
     input {
-      max-width: 270px;
+
+      flex-basis: 39%;
+      margin-bottom: 1.5rem;
       padding: $base*4 $base*5.2;
 
       background: transparent;
@@ -36,26 +38,22 @@
         font-size: 14px;
       }
 
-      @media (max-width: $breakpoint-xs-max) {
-        margin-bottom: $base * 6;
+      @media (max-width: 615px) {
+        flex-basis: 100%;
+        width: 100%;
       }
     }
 
     input + input {
       margin-left: $base * 6;
 
-      @media (max-width: $breakpoint-xs-max) {
+      @media (max-width: 615px) {
         margin-left: 0;
       }
     }
 
     .btn {
       width: 100%;
-      margin-top: $base * 6;
-
-      @media (max-width: $breakpoint-xs-max) {
-        margin-top: 0;
-      }
     }
   }
 }

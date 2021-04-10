@@ -10,6 +10,7 @@ $base: 4px;
 
 $breakpoint-sm-min: 576px;
 $breakpoint-xs-max: $breakpoint-sm-min - 1;
+$breakpoint-md-min: 768px;
 
 // === Colors ===
 $color-black: #08020D;
@@ -31,6 +32,7 @@ $fs-4: 38px;
 $fs-3: 30px;
 $fs-2: $base * 6;
 $fs-1: $base * 4.5;
+$fs-11: 16px;
 $fs-small: 12.8px;
 // === /Font-size ===
 

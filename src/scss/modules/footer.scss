@@ -1,0 +1,42 @@
+@import './../variables.scss';
+
+footer {
+  font-size: $fs-11;
+
+  background: linear-gradient(#95390c, #5328a1);
+
+  .footer-info {
+    flex-wrap: wrap;
+
+    border-bottom: 1px solid $color-gray;
+
+    .section {
+      display: flex;
+      flex-basis: 25%;
+      flex-direction: column;
+
+      margin-bottom: 74px;
+
+      h4 {
+        margin-bottom: 16px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      @media (max-width: 960px) {
+        flex-basis: 50%;
+      }
+
+      @media (max-width: $breakpoint-xs-max) {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  .nav {
+    margin: 0;
+    padding: 40px 0 48px 0;
+  }
+}

@@ -1,0 +1,81 @@
+@import './../variables.scss';
+
+.page-pricing {
+  padding-top: 100px;
+
+  color: $color-white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.section-card {
+  @media (max-width: $breakpoint-xs-max) {
+    flex-direction: column;
+  }
+}
+
+.pricing-item {
+  margin-bottom: 50px;
+  padding: 0 1.5rem;
+
+  border-radius: 1rem;
+
+  & + & {
+    margin-left: 50px;
+
+    @media (max-width: $breakpoint-xs-max) {
+      margin-left: 0;
+    }
+  }
+
+  h3 {
+    margin-bottom: 200px;
+  }
+
+  .pricing-value {
+    padding-bottom: $base * 6;
+
+    line-height: 1em;
+
+    .price {
+      font-size: 64px;
+
+      sup {
+        top: -1rem;
+        left: -4px;
+
+        font-size: $fs-3;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .btn {
+    display: block;
+    box-sizing: content-box;
+    margin-bottom: 64px;
+  }
+}
+
+.bg-free {
+  background: url('./../../images/subscribe_1.png') no-repeat;
+  background-size: cover;
+}
+
+.bg-stand {
+  background: url('./../../images/subscribe_2.png') no-repeat;
+  background-size: cover;
+}
+
+.bg-premium {
+  background: url('./../../images/subscribe_3.png') no-repeat;
+  background-size: cover;
+}
+
+.page-pricing-footer {
+  margin-bottom: 64px;
+}
+
+.pricing-footer {
+  font-size: $fs-small;
+}
