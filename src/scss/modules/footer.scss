@@ -1,34 +1,42 @@
 @import './../variables.scss';
 
 footer {
+  padding: 3rem 0 2rem 0;
+
   font-size: $fs-11;
 
   .footer-info {
-    flex-wrap: wrap;
-
     border-bottom: 1px solid $color-gray;
 
-    .section {
-      display: flex;
-      flex-basis: 25%;
-      flex-direction: column;
+    .outer-wrap {
+      flex-wrap: wrap;
 
-      margin-bottom: 74px;
+      .section {
+        display: flex;
+        flex-basis: 25%;
+        flex-direction: column;
 
-      h4 {
-        margin-bottom: 16px;
-      }
+        margin-bottom: 74px;
 
-      p {
-        margin: 0;
-      }
+        h2 {
+          margin-bottom: 16px;
 
-      @media (max-width: 960px) {
-        flex-basis: 50%;
-      }
+          font-size: 18px;
+        }
 
-      @media (max-width: $breakpoint-xs-max) {
-        flex-basis: 100%;
+        p {
+          margin: 0;
+        }
+
+        @media (max-width: 960px) {
+          flex-basis: 50%;
+
+          margin-bottom: 30px;
+        }
+
+        @media (max-width: $breakpoint-xs-max) {
+          flex-basis: 100%;
+        }
       }
     }
   }
@@ -39,6 +47,15 @@ footer {
   }
 }
 
+.socials {
+  display: flex;
+  align-items: center;
+
+  a + a {
+    padding-left: 24px;
+  }
+}
+
 .bg-linear {
-  background: linear-gradient(to right, #5328a1, #95390c);
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
