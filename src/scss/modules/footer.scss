@@ -3,8 +3,6 @@
 footer {
   font-size: $fs-11;
 
-  background: linear-gradient(#95390c, #5328a1);
-
   .footer-info {
     flex-wrap: wrap;
 
@@ -39,4 +37,8 @@ footer {
     margin: 0;
     padding: 40px 0 48px 0;
   }
+}
+
+.bg-linear {
+  background: linear-gradient(to right, #5328a1, #95390c);
 }
