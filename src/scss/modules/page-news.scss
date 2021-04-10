@@ -1,0 +1,72 @@
+@import './../variables.scss';
+
+.page-news {
+  padding-top: 100px;
+}
+
+.news-item {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-areas: 'img body' 'img footer';
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+
+  & + & {
+    padding-top: 65px;
+  }
+
+  &:nth-of-type(2n) {
+    grid-template-areas: 'body img' 'footer img';
+
+    @media (max-width: 900px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-img {
+    grid-area: img;
+
+    width: 100%;
+  }
+
+  .news-body {
+    grid-area: body;
+
+    h3 {
+      color: $color-white;
+    }
+
+    p {
+      margin: 0;
+
+      font-size: $fs-11;
+    }
+  }
+
+  .news-footer {
+    grid-area: footer;
+
+    font-size: $fs-small;
+
+    .author-name {
+      margin: 0 16px 0 16px;
+
+      color: $color-orange;
+      text-transform: uppercase;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 16px 30px;
+
+      text-transform: uppercase;
+    }
+  }
+}

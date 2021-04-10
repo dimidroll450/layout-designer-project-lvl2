@@ -44,7 +44,6 @@ h2 {
 h3 {
   font-weight: normal;
   font-size: $fs-2;
-  text-transform: uppercase;
 
   @media (max-width: $breakpoint-xs-max) {
     font-size: $fs-11;
@@ -83,6 +82,10 @@ ul {
   margin: 0;
 }
 
+.ta-c {
+  text-align: center;
+}
+
 .flex {
   display: flex;
 }
@@ -101,4 +104,8 @@ ul {
     background: transparent;
     border: 1px solid $color-white;
   }
+}
+
+.white {
+  color: $color-white;
 }
