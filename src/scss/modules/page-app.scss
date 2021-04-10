@@ -1,0 +1,34 @@
+@import './../variables.scss';
+
+.page-app {
+  padding: 100px 0 100px 0;
+
+  font-size: $fs-11;
+
+  .app {
+    justify-content: start;
+
+    .content {
+      flex-basis: 50%;
+    }
+
+    .img {
+      flex-basis: auto;
+      margin-left: 144px;
+    }
+
+    @media (max-width: $breakpoint-xs-max) {
+      flex-direction: column-reverse;
+
+      .content {
+        flex-basis: 100%;
+      }
+
+      .img {
+        flex-basis: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+      }
+    }
+  }
+}
