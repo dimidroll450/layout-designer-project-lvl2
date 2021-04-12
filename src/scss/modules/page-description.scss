@@ -1,28 +1,36 @@
 @import './../variables.scss';
 
 .page-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
   padding: $base*50 0;
 
   color: $color-white;
   text-align: center;
 
-  background-image: url('./../../images/banner.png');
-  background-position: center;
-  background-size: cover;
+  p {
+    line-height: 24px;
+  }
+
+  * .btn {
+    box-sizing: border-box;
+    width: 200px;
+
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+  }
+
+  .btn + .btn {
+    margin-left: 1.5rem;
+  }
 
   &-form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 570px;
     margin: 0 auto;
 
-    input {
+    &-input {
 
       flex-basis: 39%;
       margin-bottom: 1.5rem;
@@ -44,16 +52,30 @@
       }
     }
 
-    input + input {
-      margin-left: $base * 6;
-
-      @media (max-width: 615px) {
-        margin-left: 0;
-      }
-    }
-
-    .btn {
+    &-btn {
       width: 100%;
     }
   }
+}
+
+.bg-banner {
+  background-image: url('./../../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-morten {
+  background-image: url('./../../images/Morten Harket.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.play-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.heart-icon {
+  width: 20px;
+  height: 18px;
 }

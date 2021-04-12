@@ -1,11 +1,12 @@
 @import './../variables.scss';
 
 footer {
-  padding: 3rem 0 2rem 0;
-
   font-size: $fs-11;
+  line-height: 24px;
 
   .footer-info {
+    padding: 3rem 0 3rem;
+
     border-bottom: 1px solid $color-gray;
 
     .outer-wrap {
@@ -44,7 +45,13 @@ footer {
 
   .nav {
     margin: 0;
-    padding: 40px 0 48px 0;
+    padding: 2rem 0 2rem 0;
+
+    .nav-wrapper {
+      .item + .item {
+        margin-left: 15px;
+      }
+    }
   }
 }
 

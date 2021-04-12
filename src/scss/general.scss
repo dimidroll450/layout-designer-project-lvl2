@@ -11,8 +11,11 @@ body {
 
 .outer-wrap {
   max-width: $base * 300;
-  padding: 0 20px;
   margin: 0 auto;
+
+  @media (max-width: $base * 300) {
+    padding: 0 20px;
+  }
 }
 
 h1 {
@@ -82,6 +85,10 @@ ul {
   margin: 0;
 }
 
+.mt-48 {
+  margin-top: 48px;
+}
+
 .ta-c {
   text-align: center;
 }
@@ -90,12 +97,33 @@ ul {
   display: flex;
 }
 
+.fd-column {
+  flex-direction: column;
+}
+
+.jc-space_between {
+ justify-content: space-between;
+}
+
+.ai-start {
+  align-items: start;
+}
+
 .btn {
   display: inline-block;
   padding: 20px 30px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
+  &-img,
+  &-text {
+    vertical-align: middle;
+  }
+
+  &-text {
+    margin-left: 16px;
+  }
 
   &-primary {
     color: $color-white;
@@ -114,7 +142,7 @@ ul {
     }
   }
 
-  &-orange {
+  &-download {
     padding: 16px 40px;
   
     color: $color-white;
@@ -125,8 +153,27 @@ ul {
       background-color: darken($color-orange, 5%);
     }
   }
+
+  &-mix {
+    background-color: $color-purple;
+    border-radius: 5px;
+  }
+
+  &-favorite {
+    background-color: $color-red;
+    border-radius: 5px;
+  }
 }
 
+input {
+  color: $color-gray;
+}
+
+.active,
 .white {
   color: $color-white;
+}
+
+.invert {
+  filter: invert(1);
 }
