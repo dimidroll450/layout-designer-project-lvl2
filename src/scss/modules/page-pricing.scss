@@ -9,6 +9,16 @@
 }
 
 .section-card {
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .pricing-item {
+      flex-basis: 40%;
+    }
+  }
+
+
   @media (max-width: $breakpoint-xs-max) {
     flex-direction: column;
   }
@@ -23,7 +33,7 @@
   & + & {
     margin-left: 50px;
 
-    @media (max-width: $breakpoint-xs-max) {
+    @media (max-width: 900px) {
       margin-left: 0;
     }
   }

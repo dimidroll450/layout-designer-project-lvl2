@@ -258,6 +258,13 @@ ul {
   font-size: 16px;
   text-align: center; }
 
+@media (max-width: 800px) {
+  .section-card {
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .section-card .pricing-item {
+    flex-basis: 40%; } }
+
 @media (max-width: 575px) {
   .section-card {
     flex-direction: column; } }
@@ -270,7 +277,7 @@ ul {
 .pricing-item + .pricing-item {
   margin-left: 50px; }
 
-@media (max-width: 575px) {
+@media (max-width: 900px) {
   .pricing-item + .pricing-item {
     margin-left: 0; } }
 
@@ -381,9 +388,13 @@ ul {
 
 .page-app .app .img {
   flex-basis: auto;
-  margin-left: 144px; }
+  margin-left: 9rem; }
 
-@media (max-width: 575px) {
+@media (max-width: 900px) {
+  .page-app .app .img {
+    margin-left: auto; } }
+
+@media (max-width: 650px) {
   .page-app .app {
     flex-direction: column-reverse; }
   .page-app .app .content {
@@ -411,7 +422,8 @@ footer .footer-info .outer-wrap .section {
 
 footer .footer-info .outer-wrap .section h2 {
   margin-bottom: 16px;
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 27px; }
 
 footer .footer-info .outer-wrap .section p {
   margin: 0; }
