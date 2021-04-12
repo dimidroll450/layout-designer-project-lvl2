@@ -1,0 +1,78 @@
+@import './../variables.scss';
+
+.page-popular-track {
+  padding-top: 100px;
+}
+
+.track-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    max-width: 568px;
+    margin: 0 auto;
+  }
+}
+
+.popular-track {
+  display: flex;
+  flex-basis: 45%;
+
+  margin-bottom: 25px;
+
+  font-size: 12.8px;
+
+  cursor: pointer;
+
+  &:nth-child(2n) {
+    margin-left: 50px;
+
+    @media (max-width: 768px) {
+      margin-left: 0;
+    }
+  }
+
+  .track-img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .track-info {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin-left: 15px;
+
+    .group {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .track-name {
+        margin: 0;
+
+        color: $color-white;
+
+        font-weight: $fw-700;
+        font-size: 12.8px;
+        line-height: 19.2px;
+        text-transform: uppercase;
+      }
+
+      .track-author {
+        display: block;
+        margin: 0;
+      }
+    }
+
+    .play-time {
+      margin: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-basis: 100%;
+  }
+}

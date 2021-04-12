@@ -21,6 +21,11 @@
 
   .btn + .btn {
     margin-left: 1.5rem;
+
+    @media (max-width: $breakpoint-xs-max) {
+      margin-top: 24px;
+      margin-left: 0;
+    }
   }
 
   &-form {
@@ -55,6 +60,13 @@
     &-btn {
       width: 100%;
     }
+  }
+}
+
+.btn-group {
+  @media (max-width: $breakpoint-xs-max) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
