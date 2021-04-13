@@ -46,8 +46,10 @@ h3 {
     font-size: 16px; } }
 
 h4 {
+  margin: 0;
   font-size: 18px;
-  text-transform: uppercase; }
+  line-height: 27px;
+  color: #FFF; }
 
 a,
 ul {
@@ -544,6 +546,81 @@ input {
 @media (max-width: 768px) {
   .popular-track {
     flex-basis: 100%; } }
+
+.page-discography {
+  padding-top: 100px; }
+
+.flex-container {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap; }
+
+@media (max-width: 1200px) {
+  .flex-container {
+    justify-content: center; } }
+
+@media (max-width: 575px) {
+  .flex-container {
+    justify-content: start; } }
+
+.flex-container .discography-item,
+.flex-container .artist-item {
+  margin-top: 25px;
+  margin-left: 50px; }
+
+@media (min-width: 1200px) {
+  .flex-container .discography-item:nth-child(4n + 1),
+  .flex-container .artist-item:nth-child(4n + 1) {
+    margin-left: 0; } }
+
+@media (max-width: 1139px) {
+  .flex-container .discography-item:nth-child(3n + 1),
+  .flex-container .artist-item:nth-child(3n + 1) {
+    margin-left: 0; } }
+
+@media (max-width: 900px) {
+  .flex-container .discography-item:nth-child(3n + 1),
+  .flex-container .artist-item:nth-child(3n + 1) {
+    margin-left: 50px; } }
+
+@media (max-width: 575px) {
+  .flex-container .discography-item,
+  .flex-container .artist-item {
+    flex-basis: 45%;
+    margin-left: 0; }
+  .flex-container .discography-item:nth-child(3n + 1),
+  .flex-container .artist-item:nth-child(3n + 1) {
+    margin-left: 0; } }
+
+.flex-container .discography-item img,
+.flex-container .artist-item img {
+  width: 250px;
+  height: 250px; }
+
+@media (max-width: 575px) {
+  .flex-container .discography-item img,
+  .flex-container .artist-item img {
+    width: 137px;
+    height: 137px; } }
+
+.flex-container .discography-item .item-info,
+.flex-container .artist-item .item-info {
+  margin-top: 18px; }
+
+.flex-container .discography-item .item-info .item-title,
+.flex-container .artist-item .item-info .item-title {
+  text-transform: capitalize; }
+
+.flex-container .discography-item .item-info .item-footer,
+.flex-container .artist-item .item-info .item-footer {
+  margin: 0;
+  font-size: 16px; }
+
+.flex-container .artist-item img {
+  border-radius: 100%; }
+
+.flex-container .artist-item .item-info {
+  margin: 0 auto; }
 
 footer {
   font-size: 16px;

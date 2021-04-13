@@ -1,0 +1,86 @@
+@import './../variables.scss';
+
+.page-discography {
+  padding-top: 100px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+
+  @media (max-width: 1200px) {
+    justify-content: center;
+  }
+
+  @media (max-width: $breakpoint-xs-max) {
+    justify-content: start;
+  }
+
+  .discography-item,
+  .artist-item {
+    margin-top: 25px;
+    margin-left: 50px;
+
+    @media (min-width: 1200px) {
+      &:nth-child(4n + 1) {
+        margin-left: 0;
+      }
+    }
+
+    @media (max-width: 1139px) {
+      &:nth-child(3n + 1) {
+        margin-left: 0;
+      }
+    }
+
+    @media (max-width: 900px) {
+      &:nth-child(3n + 1) {
+        margin-left: 50px;
+      }
+    }
+
+    @media (max-width: $breakpoint-xs-max) {
+      flex-basis: 45%;
+      margin-left: 0;
+
+      &:nth-child(3n + 1) {
+        margin-left: 0;
+      }
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+
+      @media (max-width: $breakpoint-xs-max) {
+        width: 137px;
+        height: 137px;
+      }
+    }
+
+    .item-info {
+      margin-top: 18px;
+
+      .item-title {
+        text-transform: capitalize;
+      }
+
+      .item-footer {
+        margin: 0;
+
+        font-size: 16px;
+      }
+    }
+  }
+
+  .artist-item {
+    img {
+      border-radius: 100%;
+    }
+
+    .item-info {
+      margin: 0 auto;
+    }
+  }
+}
