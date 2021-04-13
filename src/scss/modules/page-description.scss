@@ -12,10 +12,15 @@
 
   * .btn {
     box-sizing: border-box;
-    width: 200px;
 
     font-size: 13px;
     line-height: 19px;
+  }
+
+  .btn-mix,
+  .btn-favorite {
+    width: 200px;
+
     text-align: left;
   }
 
