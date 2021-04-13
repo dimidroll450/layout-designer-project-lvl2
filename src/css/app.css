@@ -47,6 +47,7 @@ h3 {
 
 h4 {
   margin: 0;
+  font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   color: #FFF; }
@@ -547,13 +548,17 @@ input {
   .popular-track {
     flex-basis: 100%; } }
 
-.page-discography {
+.page-discography,
+.page-similiar {
   padding-top: 100px; }
+
+.page-similiar {
+  padding-bottom: 100px; }
 
 .flex-container {
   display: flex;
-  justify-content: start;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: start; }
 
 @media (max-width: 1200px) {
   .flex-container {
@@ -616,11 +621,16 @@ input {
   margin: 0;
   font-size: 16px; }
 
+@media (max-width: 575px) {
+  .flex-container .discography-item .item-info,
+  .flex-container .artist-item .item-info {
+    width: 137px; } }
+
 .flex-container .artist-item img {
   border-radius: 100%; }
 
 .flex-container .artist-item .item-info {
-  margin: 0 auto; }
+  text-align: center; }
 
 footer {
   font-size: 16px;

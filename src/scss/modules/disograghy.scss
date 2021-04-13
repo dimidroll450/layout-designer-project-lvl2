@@ -1,7 +1,12 @@
 @import './../variables.scss';
 
-.page-discography {
+.page-discography,
+.page-similiar {
   padding-top: 100px;
+}
+
+.page-similiar {
+  padding-bottom: 100px;
 }
 
 .flex-container {
@@ -71,6 +76,10 @@
 
         font-size: 16px;
       }
+
+      @media (max-width: $breakpoint-xs-max) {
+        width: 137px;
+      }
     }
   }
 
@@ -80,7 +89,7 @@
     }
 
     .item-info {
-      margin: 0 auto;
+      text-align: center;
     }
   }
 }
