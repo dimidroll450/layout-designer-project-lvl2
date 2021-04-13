@@ -22,7 +22,7 @@ sass.compiler = require('node-sass');
 
 const paths = {
   src: {
-    scss: './src/scss/**/*.scss',
+    scss: './src/scss/**/**/*.scss',
     images: './src/images/*',
     html: './src/*.html',
   },
@@ -59,6 +59,7 @@ const watchers = () => {
   browserSync.init({
     server: {
       baseDir: './src',
+      index: 'artist.html',
     },
   });
 
