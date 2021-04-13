@@ -245,9 +245,12 @@ input {
 
 .page-description * .btn {
   box-sizing: border-box;
-  width: 200px;
   font-size: 13px;
-  line-height: 19px;
+  line-height: 19px; }
+
+.page-description .btn-mix,
+.page-description .btn-favorite {
+  width: 200px;
   text-align: left; }
 
 .page-description .btn + .btn {
@@ -255,8 +258,8 @@ input {
 
 @media (max-width: 575px) {
   .page-description .btn + .btn {
-    margin-left: 0;
-    margin-top: 24px; } }
+    margin-top: 24px;
+    margin-left: 0; } }
 
 .page-description-form {
   display: flex;
@@ -498,8 +501,8 @@ input {
   display: flex;
   flex-basis: 45%;
   margin-bottom: 25px;
-  cursor: pointer;
-  font-size: 12.8px; }
+  font-size: 12.8px;
+  cursor: pointer; }
 
 .popular-track:nth-child(2n) {
   margin-left: 50px; }
@@ -515,13 +518,13 @@ input {
 .popular-track .track-info {
   display: flex;
   justify-content: space-between;
-  margin-left: 15px;
-  width: 100%; }
+  width: 100%;
+  margin-left: 15px; }
 
 .popular-track .track-info .group {
   display: flex;
-  justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center; }
 
 .popular-track .track-info .group .track-name {
   margin: 0;
@@ -582,6 +585,10 @@ footer .nav {
 
 footer .nav .nav-wrapper .item + .item {
   margin-left: 15px; }
+
+@media (max-width: 575px) {
+  footer .nav .nav-wrapper .item + .item {
+    margin-left: 0; } }
 
 .socials {
   display: flex;

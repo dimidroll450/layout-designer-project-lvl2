@@ -50,6 +50,10 @@ footer {
     .nav-wrapper {
       .item + .item {
         margin-left: 15px;
+
+        @media (max-width: $breakpoint-xs-max) {
+          margin-left: 0;
+        }
       }
     }
   }
