@@ -10,11 +10,11 @@ body {
 }
 
 .outer-wrap {
-  max-width: $base * 300;
   margin: 0 auto;
+  padding: 0 20px;
 
-  @media (max-width: $base * 300) {
-    padding: 0 20px;
+  @media (min-width: 1240px) {
+    max-width: $base * 300;
   }
 }
 
@@ -148,6 +148,8 @@ ul {
 
   &-download {
     padding: 16px 40px;
+
+    font-size: 12.8px;
   
     color: $color-white;
     background-color: $color-orange;

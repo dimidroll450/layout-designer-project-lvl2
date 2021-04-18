@@ -68,6 +68,12 @@
       margin-top: 18px;
 
       .item-title {
+        margin: 0;
+
+        color: $color-white;
+        font-weight: $fw-700;
+        font-size: $fs-1;
+        line-height: 27px;
         text-transform: capitalize;
       }
 
