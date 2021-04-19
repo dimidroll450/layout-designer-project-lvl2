@@ -10,8 +10,8 @@ footer {
     border-bottom: 1px solid $color-gray;
 
     .outer-wrap {
-      justify-content: space-between;
       flex-wrap: wrap;
+      justify-content: space-between;
 
       .section {
         display: flex;
@@ -60,6 +60,7 @@ footer {
           width: 100%;
         }
       }
+
       .item + .item {
         margin-left: 15px;
 

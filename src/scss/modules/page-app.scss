@@ -22,17 +22,16 @@
     }
 
     @media (max-width: 650px) {
-      justify-content: center;
       flex-direction: column-reverse;
+      justify-content: center;
 
       .content {
         flex-basis: 100%;
       }
 
       .img {
-        margin: 0 auto;
-
         max-width: 333px;
+        margin: 0 auto;
       }
     }
   }

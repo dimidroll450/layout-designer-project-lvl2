@@ -45,10 +45,10 @@
   }
 
   .pricing-value {
-    font-size: 64px;
     margin-top: 0;
     margin-bottom: $base * 6;
 
+    font-size: 64px;
     line-height: 1em;
 
     sup {
@@ -91,9 +91,9 @@
 
 //---костыли---//
 .pricing-footer {
+  width: 98%;
   margin-top: 0;
   margin-bottom: 66px;
-  width: 98%;
 
   font-size: $fs-small;
   line-height: 19.2px;

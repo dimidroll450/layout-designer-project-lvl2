@@ -9,6 +9,7 @@
   p {
     margin-top: 32px;
     margin-bottom: 16px;
+
     line-height: 24px;
 
     @media (max-width: $breakpoint-xs-max) {
@@ -60,21 +61,24 @@
         font-weight: $fw-700;
         font-size: 14px;
       }
-
     }
 
-    .input-1 { grid-area: input-1 }
-    
-    .input-2 { grid-area: input-2 }
-    
+    .input-1 {
+      grid-area: input-1;
+    }
+
+    .input-2 {
+      grid-area: input-2;
+    }
+
     &-btn {
       grid-area: btn;
     }
 
     @media (max-width: 615px) {
+      grid-template-areas: 'input-1' 'input-2' 'btn';
       grid-template-rows: repeat(3, 1fr);
       grid-template-columns: 1fr;
-      grid-template-areas: 'input-1' 'input-2' 'btn';
     }
   }
 
