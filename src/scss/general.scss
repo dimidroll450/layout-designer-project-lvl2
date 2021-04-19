@@ -11,10 +11,29 @@ body {
 
 .outer-wrap {
   margin: 0 auto;
-  padding: 0 20px;
 
   @media (min-width: 1240px) {
     max-width: $base * 300;
+  }
+
+  @media (max-width: 1240px) {
+    padding: 0 20px;
+  }
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 16px;
+
+  @media (max-width: $breakpoint-xs-max) {
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
 
@@ -91,6 +110,10 @@ ul {
 
 .mt-48 {
   margin-top: 48px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
 }
 
 .ta-c {

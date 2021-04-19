@@ -7,7 +7,13 @@
   text-align: center;
 
   p {
+    margin-top: 32px;
+    margin-bottom: 16px;
     line-height: 24px;
+
+    @media (max-width: $breakpoint-xs-max) {
+      margin-top: 16px;
+    }
   }
 
   * .btn {
@@ -34,16 +40,15 @@
   }
 
   &-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: 24px;
+    grid-template-areas: "input-1 input-2" "btn btn";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     max-width: 570px;
     margin: 0 auto;
 
     &-input {
-
-      flex-basis: 39%;
-      margin-bottom: 1.5rem;
       padding: $base*4 $base*5.2;
 
       background: transparent;
@@ -56,15 +61,25 @@
         font-size: 14px;
       }
 
-      @media (max-width: 615px) {
-        flex-basis: 100%;
-        width: 100%;
-      }
     }
 
+    .input-1 { grid-area: input-1 }
+    
+    .input-2 { grid-area: input-2 }
+    
     &-btn {
-      width: 100%;
+      grid-area: btn;
     }
+
+    @media (max-width: 615px) {
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: 1fr;
+      grid-template-areas: 'input-1' 'input-2' 'btn';
+    }
+  }
+
+  @media (max-width: $breakpoint-xs-max) {
+    padding-top: 250px;
   }
 }
 

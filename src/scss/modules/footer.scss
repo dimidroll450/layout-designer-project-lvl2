@@ -10,11 +10,12 @@ footer {
     border-bottom: 1px solid $color-gray;
 
     .outer-wrap {
+      justify-content: space-between;
       flex-wrap: wrap;
 
       .section {
         display: flex;
-        flex-basis: 25%;
+        flex-basis: auto;
         flex-direction: column;
 
         margin-bottom: 74px;
@@ -31,13 +32,19 @@ footer {
         }
 
         @media (max-width: 960px) {
-          flex-basis: 50%;
-
           margin-bottom: 30px;
         }
 
         @media (max-width: $breakpoint-xs-max) {
           flex-basis: 100%;
+        }
+      }
+
+      .section + .section {
+        margin-left: 60px;
+
+        @media (max-width: $breakpoint-xs-max) {
+          margin-left: 0;
         }
       }
     }
@@ -48,10 +55,16 @@ footer {
     padding: 2rem 0 2rem 0;
 
     .nav-wrapper {
+      .item {
+        @media (max-width: $breakpoint-xs-max) {
+          width: 100%;
+        }
+      }
       .item + .item {
         margin-left: 15px;
 
         @media (max-width: $breakpoint-xs-max) {
+          margin-top: 16px;
           margin-left: 0;
         }
       }
@@ -63,8 +76,14 @@ footer {
   display: flex;
   align-items: center;
 
-  a + a {
-    padding-left: 24px;
+  &-item {
+    &-img {
+      vertical-align: middle;
+    }
+  }
+
+  .socials-item + .socials-item {
+    margin-left: 24px;
   }
 }
 
