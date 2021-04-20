@@ -59,7 +59,7 @@ const watchers = () => {
   browserSync.init({
     server: {
       baseDir: './src',
-      index: 'index.html',
+      index: 'artist.html',
     },
   });
 

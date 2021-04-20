@@ -13,51 +13,52 @@
     <header class="header">
       <div class="outer-wrap">
         <div class="main-nav flex">
-          <a href="#" class="logo flex">
+          <div href="#" class="logo flex">
             <img src="./images/logo.svg" alt="Logo" class="logo-img">
-            <span class="logo-text uppercase">Music box</span>
-          </a>
+            <span class="logo-text white uppercase">Music box</span>
+          </div>
           <nav class="nav">
             <ul class="nav-wrapper flex uppercase">
               <li class="item">
-                <a href="./index.html">Главная</a>
+                <a href="./index.html" class="active">Главная</a>
               </li>
               <li class="item">
                 <a href="#">Каталог</a>
               </li>
               <li class="item">
-                <a class="active" href="#">Исполнители</a>
+                <a href="./artist.html">Исполнители</a>
             </li>
               <li class="item">
                 <a href="#">Контакты</a>
               </li>
             </ul>
           </nav>
-          <form action="" class="search">
-            <input type="search" placeholder="Поиск..." name="" id="search-input" class="search-input uppercase">
+          <form class="search">
+            <input type="search" placeholder="Поиск..." id="search-input" class="search-input uppercase">
           </form>
         </div>
       </div>
     </header>
-    <main>
-      <section class="page-description bg-morten white" id="page-description">
-        <div class="outer-wrap flex fd-column ai-start">
+    <section class="page-description bg-morten white" id="page-description">
+        <div class="outer-wrap ta-left">
           <h1 class="m-0">Morten Harket</h1>
           <p class="fs-16">24 875 поклонников</p>
           <div class="mt-48 btn-group">
-            <a class="btn btn-mix uppercase flex">
+            <button class="btn btn-mix uppercase flex">
               <img class="btn-img play-icon invert" src="./images/play-button.svg" alt="play">
               <span class="btn-text white">Микс</span>
-              </a>
-            <a class="btn btn-favorite uppercase">
-              <img class="btn-img heart-icon invert" src="./images/heart.svg" alt="">
-              <span class="btn-text white">В избранное</span></a>
+            </button>
+            <button class="btn btn-favorite uppercase">
+              <img class="btn-img heart-icon invert" src="./images/heart.svg" alt="favorite">
+              <span class="btn-text white">В избранное</span>
+            </button>
           </div>
         </div>
       </section>
-      <section class="page-popular-track" id="page-popular-track">
-        <div class="outer-wrap">
-          <h2 class="white">Популярные треки</h2>
+    <main class="flex fd-column ai-center">
+      <section class="page-popular-track outer-wrap" id="page-popular-track">
+        <div>
+          <h2 class="white mb-48">Популярные треки</h2>
           <div class="track-container">
             <div class="popular-track">
               <img class="track-img" src="./images/Wild Seed.png" alt="Wild Seed">
@@ -122,9 +123,9 @@
           </div>
         </div>
       </section>
-      <section class="page-discography" id="page-discography">
-        <div class="outer-wrap">
-          <h2>Дискография</h2>
+      <section class="page-discography outer-wrap" id="page-discography">
+        <div>
+          <h2 class="mb-48">Дискография</h2>
           <div class="flex-container discography">
             <div class="discography-item">
               <img src="./images/Brother.png" alt="Brother">
@@ -171,9 +172,9 @@
           </div>
         </div>
       </section>
-      <section class="page-similiar">
-        <div class="outer-wrap">
-          <h2> Похожие Исполнители</h2>
+      <section class="page-similiar outer-wrap" id="page-similiar">
+        <div>
+          <h2 class="mb-48"> Похожие Исполнители</h2>
           <div class="flex-container similiar">
             <div class="artist-item">
               <img src="./images/A-ha.png" alt="A-HA">
@@ -240,62 +241,76 @@
           <div class="outer-wrap flex">
             <div class="section">
               <h2>О нас</h2>
-              <a href="#">История компании</a>
-              <a href="#">Карьера</a>
-              <a href="#">Особенности</a>
-              <a href="#">Пресса</a>
+              <ul>
+                <li>
+                  <a href="#">История компании</a>
+                </li>
+                <li>
+                  <a href="#">Карьера</a>
+                </li>
+                <li>
+                  <a href="#">Особенности</a>
+                </li>
+                <li>
+                  <a href="#">Пресса</a>
+                </li>
+              </ul>
             </div>
             <div class="section">
               <h2>Поддержка</h2>
-              <a href="#">База знаний</a>
-              <a href="#">Тарифы</a>
-              <a href="#">Мобильное приложение</a>
-              <a href="#">Условия использования</a>
+              <ul>
+                <li>
+                  <a href="#">База знаний</a>
+                </li>
+                <li>
+                  <a href="#">Тарифы</a>
+                </li>
+                <li>
+                  <a href="#">Мобильное приложение</a>
+                </li>
+                <li>
+                  <a href="#">Условия использования</a>
+                </li>
+              </ul>          
             </div>
             <div class="section">
               <h2>Контакты</h2>
-              <p>hello@music.box</p>
+              <div>
+                <a href="mailto:hello@music.box">hello@music.box</a>
+              </div>
               <p>Russia, Moscow. Music Box studio</p>
-              <p>+ 7 499 999 99 99</p>
+              <div>
+                <a href="tel:+ 7-499-999-99-99">+ 7 499 999 99 99</a>
+              </div>
             </div>
             <div class="section">
               <h2>Подписывайтесь</h2>
               <div class="socials">
-                <a href="#">
-                  <img src="./images/Google+.png" alt="Google+">
+                <a class="socials-item" href="#">
+                  <img class="socials-item-img" src="./images/Google+.png" alt="Google+">
                 </a>
-                <a href="#">
-                  <img src="./images/Twitter.png" alt="Twitter">
+                <a class="socials-item" href="#">
+                  <img class="socials-item-img" src="./images/Twitter.png" alt="Twitter">
                 </a>
-                <a href="#">
-                  <img src="./images/Facebook.png" alt="Facebook">
+                <a class="socials-item" href="#">
+                  <img class="socials-item-img" src="./images/Facebook.png" alt="Facebook">
                 </a>
-                <a href="#">
-                  <img src="./images/Instagram.png" alt="Instagram">
+                <a class="socials-item" href="#">
+                  <img class="socials-item-img" src="./images/Instagram.png" alt="Instagram">
                 </a>
               </div>
             </div>
-        </div>
           </div>
+      </div>
       <div class="outer-wrap">
         <div class="nav m-0">
-          <ul class="nav-wrapper flex">
-            <li class="item">
-              <a href="#">Магазин</a>
-            </li>
-            <li class="item">
-              <a href="#">Обслуживание</a>
-            </li>
-            <li class="item">
-              <a href="#">Блог</a>
-            </li>
-            <li class="item">
-              <a href="#">Поддержка</a>
-            </li>
-            <li class="item">
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
+          <div class="nav-wrapper flex">
+            <a class="item" href="#">Магазин</a>
+            <a class="item" href="#">Обслуживание</a>
+            <a class="item" href="#">Блог</a>
+            <a class="item" href="#">Поддержка</a>
+            <a class="item" href="#">Контакты</a>
+          </div>
         </div>
       </div>
     </footer>

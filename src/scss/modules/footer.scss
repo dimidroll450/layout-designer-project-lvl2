@@ -1,11 +1,12 @@
 @import './../variables.scss';
 
 footer {
+  color: $color-white;
   font-size: $fs-11;
   line-height: 24px;
 
   .footer-info {
-    padding: 3rem 0 3rem;
+    padding: 32px 0 70px;
 
     border-bottom: 1px solid $color-gray;
 
@@ -18,7 +19,8 @@ footer {
         flex-basis: auto;
         flex-direction: column;
 
-        margin-bottom: 74px;
+        width: 250px;
+        margin-top: 30px;
 
         h2 {
           margin-bottom: 16px;
@@ -31,10 +33,6 @@ footer {
           margin: 0;
         }
 
-        @media (max-width: 960px) {
-          margin-bottom: 30px;
-        }
-
         @media (max-width: $breakpoint-xs-max) {
           flex-basis: 100%;
         }
@@ -43,7 +41,7 @@ footer {
       .section + .section {
         margin-left: 60px;
 
-        @media (max-width: $breakpoint-xs-max) {
+        @media (max-width: 1240px) {
           margin-left: 0;
         }
       }
@@ -52,7 +50,7 @@ footer {
 
   .nav {
     margin: 0;
-    padding: 2rem 0 2rem 0;
+    padding: 40px 0 48px 0;
 
     .nav-wrapper {
       .item {
