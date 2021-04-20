@@ -12,6 +12,9 @@ body {
   .outer-wrap {
     max-width: 1200px; } }
 
+main {
+  padding-bottom: 100px; }
+
 footer .outer-wrap,
 header .outer-wrap,
 .page-description .outer-wrap {
@@ -93,6 +96,9 @@ ul {
 
 .mb-0 {
   margin-bottom: 0; }
+
+.mt-7 {
+  margin-top: 7px; }
 
 .mt-48 {
   margin-top: 48px; }
@@ -190,9 +196,7 @@ input {
 
 .main-nav {
   position: relative;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: start;
   font-weight: 700; }
 
 @media (max-width: 575px) {
@@ -248,10 +252,12 @@ input {
 
 @media (max-width: 575px) {
   .nav .nav-wrapper .item + .item {
+    margin-top: 3px;
     margin-left: 0; } }
 
 @media (max-width: 575px) {
   .nav .nav-wrapper {
+    display: block;
     flex-direction: column;
     align-items: start; } }
 
@@ -274,6 +280,10 @@ input {
   padding: 200px 0;
   color: #FFF;
   text-align: center; }
+
+@media (max-width: 575px) {
+  .page-description .outer-wrap {
+    margin-top: 50px; } }
 
 .page-description p {
   margin-top: 32px;
@@ -404,13 +414,13 @@ input {
     margin-left: 0; } }
 
 .pricing-item h3 {
-  margin-top: 20px;
+  margin-top: 24px;
   margin-bottom: 200px;
   text-transform: uppercase; }
 
 .pricing-item .pricing-value {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
   font-size: 64px;
   line-height: 1em; }
 
@@ -535,7 +545,6 @@ input {
 
 .page-app {
   padding-top: 100px;
-  padding-bottom: 100px;
   font-size: 16px; }
 
 .page-app .app {
@@ -626,9 +635,6 @@ input {
 .page-discography,
 .page-similar {
   padding-top: 100px; }
-
-.page-similar {
-  padding-bottom: 100px; }
 
 .flex-container {
   display: flex;
@@ -729,7 +735,7 @@ footer .footer-info .outer-wrap .section {
   display: flex;
   flex-basis: auto;
   flex-direction: column;
-  width: 250px;
+  width: 260px;
   margin-top: 30px; }
 
 footer .footer-info .outer-wrap .section h2 {
@@ -745,7 +751,7 @@ footer .footer-info .outer-wrap .section p {
     flex-basis: 100%; } }
 
 footer .footer-info .outer-wrap .section + .section {
-  margin-left: 60px; }
+  margin-left: 50px; }
 
 @media (max-width: 1240px) {
   footer .footer-info .outer-wrap .section + .section {
@@ -766,6 +772,10 @@ footer .nav .nav-wrapper .item + .item {
   footer .nav .nav-wrapper .item + .item {
     margin-top: 16px;
     margin-left: 0; } }
+
+@media (max-width: 575px) {
+  footer .nav .nav-wrapper {
+    display: flex; } }
 
 .socials {
   display: flex;

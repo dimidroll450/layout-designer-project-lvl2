@@ -19,9 +19,7 @@
 .main-nav {
   position: relative;
 
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: start;
 
   font-weight: $fw-700;
 
@@ -92,11 +90,13 @@
       margin-left: $base * 6;
 
       @media (max-width: $breakpoint-xs-max) {
+        margin-top: 3px;
         margin-left: 0;
       }
     }
 
     @media (max-width: $breakpoint-xs-max) {
+      display: block;
       flex-direction: column;
       align-items: start;
     }

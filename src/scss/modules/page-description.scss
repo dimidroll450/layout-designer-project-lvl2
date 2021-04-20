@@ -6,6 +6,12 @@
   color: $color-white;
   text-align: center;
 
+  .outer-wrap {
+    @media (max-width: $breakpoint-xs-max) {
+      margin-top: 50px;
+    }
+  }
+
   p {
     margin-top: 32px;
     margin-bottom: 16px;
