@@ -132,6 +132,7 @@ ul {
   vertical-align: middle; }
 
 .btn-text {
+  font-size: 12.8px;
   margin-left: 16px; }
 
 .btn-primary {
@@ -285,7 +286,7 @@ input {
 
 .page-description * .btn {
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 12.8px;
   line-height: 19px; }
 
 .page-description .btn-mix,
@@ -623,10 +624,10 @@ input {
     flex-basis: 100%; } }
 
 .page-discography,
-.page-similiar {
+.page-similar {
   padding-top: 100px; }
 
-.page-similiar {
+.page-similar {
   padding-bottom: 100px; }
 
 .flex-container {
@@ -712,9 +713,9 @@ input {
   text-align: center; }
 
 footer {
+  color: #FFF;
   font-size: 16px;
-  line-height: 24px;
-  color: #FFF; }
+  line-height: 24px; }
 
 footer .footer-info {
   padding: 32px 0 70px;
