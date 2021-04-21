@@ -1,26 +1,21 @@
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 body {
   font-family: Roboto, sans-serif;
   background-color: #08020D;
@@ -232,32 +227,24 @@ input {
 .invert {
   filter: invert(1); }
 
-.text-nowrap {
-  white-space: nowrap; }
-
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 .header {
   position: absolute;
   top: 25px;
@@ -351,29 +338,24 @@ input {
   display: block;
   margin-left: 16px; }
 
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 .page-description {
   padding: 200px 0;
   color: #FFF;
@@ -460,6 +442,10 @@ input {
     display: flex;
     flex-direction: column; } }
 
+@media (max-width: 575px) and (max-width: 575px) {
+  .btn-group {
+    margin-bottom: 10px; } }
+
 .artist-title {
   margin-top: 48px; }
 
@@ -485,29 +471,24 @@ input {
   width: 20px;
   height: 18px; }
 
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 .page-pricing {
   padding-top: 100px;
   color: #FFF;
@@ -587,29 +568,24 @@ input {
   font-size: 12.8px;
   line-height: 19.2px; }
 
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 .page-news {
   padding-top: 100px; }
 
@@ -690,29 +666,24 @@ input {
   padding: 16px 30px;
   text-transform: uppercase; }
 
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 .page-app {
   padding-top: 100px;
   font-size: 16px; }
@@ -734,37 +705,32 @@ input {
 @media (max-width: 650px) {
   .page-app .app {
     flex-direction: column-reverse;
-    justify-content: center;
-    max-width: 370px; }
+    align-items: center;
+    justify-content: center; }
   .page-app .app .content {
     flex-basis: 100%; }
   .page-app .app .img {
     max-width: 333px;
-    margin: 0 auto; } }
+    margin: 0; } }
 
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 .page-popular-track {
   padding-top: 100px; }
 
@@ -829,29 +795,24 @@ input {
   .popular-track {
     flex-basis: 100%; } }
 
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 .page-discography,
 .page-similar {
   padding-top: 100px; }
@@ -926,6 +887,10 @@ input {
   line-height: 27px;
   text-transform: capitalize; }
 
+.flex-container .discography-item .item-info .fs-16,
+.flex-container .artist-item .item-info .fs-16 {
+  font-size: 16px; }
+
 .flex-container .discography-item .item-info .item-footer,
 .flex-container .artist-item .item-info .item-footer {
   display: block;
@@ -940,29 +905,24 @@ input {
 .flex-container .artist-item .item-info {
   text-align: center; }
 
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Regular.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
-}
+  src: url("./../fonts/Roboto-Medium.ttf") format("ttf"); }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+  src: url("./../fonts/Roboto-Bold.ttf") format("ttf"); }
+
 footer {
   color: #FFF;
   font-size: 16px;

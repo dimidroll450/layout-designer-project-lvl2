@@ -23,8 +23,8 @@
 
     @media (max-width: 650px) {
       flex-direction: column-reverse;
+      align-items: center;
       justify-content: center;
-      max-width: 370px;
 
       .content {
         flex-basis: 100%;
@@ -32,7 +32,7 @@
 
       .img {
         max-width: 333px;
-        margin: 0 auto;
+        margin: 0;
       }
     }
   }

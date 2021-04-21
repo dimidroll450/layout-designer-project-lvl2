@@ -1,8 +1,4 @@
-@import './../fonts/Roboto-Regular.ttf';
-@import './../fonts/Roboto-Medium.ttf';
-@import './../fonts/Roboto-Bold.ttf';
-
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
@@ -24,7 +20,7 @@
   font-style: normal;
   src:
     url('./../fonts/Roboto-Bold.ttf') format('ttf')
-} */
+}
 
 @mixin roboto {
   font-family: Roboto, sans-serif;

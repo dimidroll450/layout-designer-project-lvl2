@@ -95,6 +95,10 @@
   @media (max-width: $breakpoint-xs-max) {
     display: flex;
     flex-direction: column;
+
+    @media (max-width: $breakpoint-xs-max) {
+      margin-bottom: 10px;
+    }
   }
 }
 
