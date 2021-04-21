@@ -8,8 +8,6 @@ footer {
   .footer-info {
     padding: 32px 0 70px;
 
-    border-bottom: 1px solid $color-gray;
-
     .outer-wrap {
       flex-wrap: wrap;
       justify-content: space-between;
@@ -70,6 +68,8 @@ footer {
 
       @media (max-width: $breakpoint-xs-max) {
         display: flex;
+
+        padding-right: 20px; //wtf?
       }
     }
   }

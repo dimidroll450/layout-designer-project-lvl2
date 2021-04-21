@@ -10,6 +10,7 @@
 
     .content {
       flex-basis: 50%;
+      padding-top: 16px;
     }
 
     .img {
@@ -24,7 +25,7 @@
     @media (max-width: 650px) {
       flex-direction: column-reverse;
       justify-content: center;
-      max-width: 374px;
+      max-width: 370px;
 
       .content {
         flex-basis: 100%;

@@ -56,7 +56,10 @@
     margin: 0 auto;
 
     &-input {
-      padding: $base*4 $base*5.2;
+      height: 45px;
+      padding-left: 20px;
+
+      font-size: 14px;
 
       background: transparent;
       border: 2px solid $color-dark-gray;
@@ -65,7 +68,6 @@
       &::placeholder {
         color: $color-dark-gray;
         font-weight: $fw-700;
-        font-size: 14px;
       }
     }
 

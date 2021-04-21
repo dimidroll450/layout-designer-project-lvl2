@@ -104,6 +104,13 @@ ul {
   list-style: none;
 }
 
+hr {
+  width: 99.8%;
+  height: 1px;
+  margin: 0;
+  color: $color-gray;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
