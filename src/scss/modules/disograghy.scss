@@ -42,8 +42,8 @@
     }
 
     @media (max-width: $breakpoint-xs-max) {
-      width: 137px;
       justify-content: space-between;
+      width: 137px;
       margin-left: 0;
 
       &:nth-child(3n + 1) {
@@ -79,13 +79,14 @@
       }
 
       .item-footer {
+        display: block;
         margin: 0;
 
         font-size: 16px;
       }
 
       @media (max-width: $breakpoint-xs-max) {
-        width: 137px;
+        width: 140px;
       }
     }
   }

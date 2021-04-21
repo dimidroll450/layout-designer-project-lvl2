@@ -265,3 +265,7 @@ input {
 .invert {
   filter: invert(1);
 }
+
+.text-nowrap {
+  white-space: nowrap;
+}

@@ -2,8 +2,32 @@
 @import './../fonts/Roboto-Medium.ttf';
 @import './../fonts/Roboto-Bold.ttf';
 
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
+
 @mixin roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 $base: 4px;

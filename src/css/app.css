@@ -1,5 +1,28 @@
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: #08020D;
   font-size: 18px;
   line-height: 1.5;
@@ -209,6 +232,32 @@ input {
 .invert {
   filter: invert(1); }
 
+.text-nowrap {
+  white-space: nowrap; }
+
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 .header {
   position: absolute;
   top: 25px;
@@ -278,8 +327,8 @@ input {
 
 @media (max-width: 575px) {
   .nav .nav-wrapper .item + .item {
-    padding-top: 3px;
-    margin-left: 0; } }
+    margin-left: 0;
+    padding-top: 3px; } }
 
 @media (max-width: 575px) {
   .nav .nav-wrapper {
@@ -302,6 +351,29 @@ input {
   display: block;
   margin-left: 16px; }
 
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 .page-description {
   padding: 200px 0;
   color: #FFF;
@@ -389,7 +461,7 @@ input {
     flex-direction: column; } }
 
 .artist-title {
-  margin-top: 35px; }
+  margin-top: 48px; }
 
 @media (max-width: 575px) {
   .artist-title {
@@ -413,6 +485,29 @@ input {
   width: 20px;
   height: 18px; }
 
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 .page-pricing {
   padding-top: 100px;
   color: #FFF;
@@ -492,6 +587,29 @@ input {
   font-size: 12.8px;
   line-height: 19.2px; }
 
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 .page-news {
   padding-top: 100px; }
 
@@ -572,6 +690,29 @@ input {
   padding: 16px 30px;
   text-transform: uppercase; }
 
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 .page-app {
   padding-top: 100px;
   font-size: 16px; }
@@ -601,6 +742,29 @@ input {
     max-width: 333px;
     margin: 0 auto; } }
 
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 .page-popular-track {
   padding-top: 100px; }
 
@@ -621,7 +785,7 @@ input {
   cursor: pointer; }
 
 .popular-track:nth-child(2n) {
-  margin-left: 38px; }
+  margin-left: 45px; }
 
 @media (max-width: 768px) {
   .popular-track:nth-child(2n) {
@@ -655,12 +819,35 @@ input {
   margin: 0; }
 
 .popular-track .track-info .play-time {
-  margin: 1rem; }
+  margin: 1rem 0 1rem 1rem; }
 
 @media (max-width: 768px) {
   .popular-track {
     flex-basis: 100%; } }
 
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 .page-discography,
 .page-similar {
   padding-top: 100px; }
@@ -701,8 +888,8 @@ input {
 @media (max-width: 575px) {
   .flex-container .discography-item,
   .flex-container .artist-item {
-    width: 137px;
     justify-content: space-between;
+    width: 137px;
     margin-left: 0; }
   .flex-container .discography-item:nth-child(3n + 1),
   .flex-container .artist-item:nth-child(3n + 1) {
@@ -737,17 +924,41 @@ input {
 
 .flex-container .discography-item .item-info .item-footer,
 .flex-container .artist-item .item-info .item-footer {
+  display: block;
   margin: 0;
   font-size: 16px; }
 
 @media (max-width: 575px) {
   .flex-container .discography-item .item-info,
   .flex-container .artist-item .item-info {
-    width: 137px; } }
+    width: 140px; } }
 
 .flex-container .artist-item .item-info {
   text-align: center; }
 
+/* @font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src:
+    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+} */
 footer {
   color: #FFF;
   font-size: 16px;
