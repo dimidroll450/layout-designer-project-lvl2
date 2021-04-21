@@ -127,6 +127,9 @@ hr {
 .mb-48 {
   margin-bottom: 48px; }
 
+.pt-16 {
+  padding-top: 16px; }
+
 .ta-c {
   text-align: center; }
 
@@ -148,6 +151,9 @@ hr {
 .ai-start {
   align-items: start; }
 
+.va-center {
+  vertical-align: middle; }
+
 .btn {
   display: inline-block;
   padding: 20px 30px;
@@ -155,12 +161,11 @@ hr {
   border-radius: 5px;
   cursor: pointer; }
 
-.btn-img, .btn-text {
+.btn-img {
   vertical-align: middle; }
 
-.btn-text {
-  font-size: 12.8px;
-  margin-left: 16px; }
+.btn-img {
+  margin-right: 16px; }
 
 .btn-primary {
   color: #FFF;
@@ -575,8 +580,7 @@ input {
   justify-content: start; }
 
 .page-app .app .content {
-  flex-basis: 50%;
-  padding-top: 16px; }
+  flex-basis: 50%; }
 
 .page-app .app .img {
   flex-basis: auto;
@@ -592,8 +596,7 @@ input {
     justify-content: center;
     max-width: 370px; }
   .page-app .app .content {
-    flex-basis: 100%;
-    padding-top: 0; }
+    flex-basis: 100%; }
   .page-app .app .img {
     max-width: 333px;
     margin: 0 auto; } }
@@ -731,11 +734,6 @@ input {
   font-size: 18px;
   line-height: 27px;
   text-transform: capitalize; }
-
-@media (max-width: 575px) {
-  .flex-container .discography-item .item-info .item-title,
-  .flex-container .artist-item .item-info .item-title {
-    font-size: 16px; } }
 
 .flex-container .discography-item .item-info .item-footer,
 .flex-container .artist-item .item-info .item-footer {

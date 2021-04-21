@@ -9,8 +9,8 @@
     justify-content: start;
 
     .content {
+     
       flex-basis: 50%;
-      padding-top: 16px;
     }
 
     .img {
@@ -29,7 +29,6 @@
 
       .content {
         flex-basis: 100%;
-        padding-top: 0;
       }
 
       .img {

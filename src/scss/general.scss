@@ -160,6 +160,10 @@ hr {
   margin-bottom: 48px;
 }
 
+.pt-16 {
+  padding-top: 16px;
+}
+
 .ta-c {
   text-align: center;
 }
@@ -188,6 +192,10 @@ hr {
   align-items: start;
 }
 
+.va-center {
+  vertical-align: middle;
+}
+
 .btn {
   display: inline-block;
   padding: 20px 30px;
@@ -195,14 +203,12 @@ hr {
   border-radius: 5px;
   cursor: pointer;
 
-  &-img,
-  &-text {
+  &-img {
     vertical-align: middle;
   }
 
-  &-text {
-    font-size: 12.8px;
-    margin-left: 16px;
+  &-img {
+    margin-right: 16px;
   }
 
   &-primary {

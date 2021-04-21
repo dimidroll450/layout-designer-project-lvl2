@@ -76,10 +76,6 @@
         font-size: $fs-1;
         line-height: 27px;
         text-transform: capitalize;
-
-        @media (max-width: $breakpoint-xs-max) {
-          font-size: 16px;
-        }
       }
 
       .item-footer {
