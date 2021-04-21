@@ -105,10 +105,13 @@ ul {
 }
 
 hr {
-  width: 99.8%;
-  height: 1px;
+  position: relative;
   margin: 0;
-  color: $color-gray;
+  border: 1px solid #e0e0e0;
+}
+
+.h-96 {
+  height: 96px;
 }
 
 .uppercase {
@@ -117,6 +120,12 @@ hr {
 
 .fs-16 {
   font-size: 16px;
+}
+
+.mobile-mt-50 {
+  @media (max-width: $breakpoint-xs-max) {
+    margin-top: 50px;
+   }
 }
 
 .m-0 {
@@ -132,7 +141,7 @@ hr {
 }
 
 .mt-48 {
-  margin-top: 48px;
+  margin-top: 47px;
 }
 
 .mb-48 {

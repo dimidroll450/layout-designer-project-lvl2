@@ -16,7 +16,7 @@
 
 .popular-track {
   display: flex;
-  flex-basis: 45%;
+  flex-basis: 47%;
 
   margin-bottom: 25px;
 
@@ -25,7 +25,7 @@
   cursor: pointer;
 
   &:nth-child(2n) {
-    margin-left: 50px;
+    margin-left: 38px;
 
     @media (max-width: 768px) {
       margin-left: 0;

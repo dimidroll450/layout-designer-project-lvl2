@@ -6,12 +6,6 @@
   color: $color-white;
   text-align: center;
 
-  .outer-wrap {
-    @media (max-width: $breakpoint-xs-max) {
-      margin-top: 50px;
-    }
-  }
-
   p {
     margin-top: 32px;
     margin-bottom: 16px;
@@ -84,6 +78,7 @@
     }
 
     @media (max-width: 615px) {
+      grid-gap: 16px;
       grid-template-areas: 'input-1' 'input-2' 'btn';
       grid-template-rows: repeat(3, 1fr);
       grid-template-columns: 1fr;
@@ -99,6 +94,14 @@
   @media (max-width: $breakpoint-xs-max) {
     display: flex;
     flex-direction: column;
+  }
+}
+
+.artist-title {
+  margin-top: 35px;
+
+  @media (max-width: $breakpoint-xs-max) {
+    margin-top: 25px;
   }
 }
 
