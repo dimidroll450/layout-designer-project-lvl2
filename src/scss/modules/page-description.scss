@@ -7,7 +7,6 @@
   text-align: center;
 
   p {
-    margin-top: 32px;
     margin-bottom: 16px;
 
     line-height: 24px;
@@ -21,18 +20,19 @@
     box-sizing: border-box;
 
     font-size: 12.8px;
-    line-height: 19px;
+    line-height: 16px;
   }
 
   .btn-mix,
   .btn-favorite {
     width: 200px;
+    line-height: 19.2px;
 
     text-align: left;
   }
 
   .btn + .btn {
-    margin-left: 1.5rem;
+    margin-left: 20px;
 
     @media (max-width: $breakpoint-xs-max) {
       margin-top: 24px;

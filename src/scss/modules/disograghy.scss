@@ -20,7 +20,7 @@
 
   .discography-item,
   .artist-item {
-    margin-top: 25px;
+    margin-top: 23px;
     margin-left: 50px;
 
     @media (min-width: 1200px) {
@@ -42,11 +42,16 @@
     }
 
     @media (max-width: $breakpoint-xs-max) {
-      flex-basis: 45%;
+      width: 137px;
+      justify-content: space-between;
       margin-left: 0;
 
       &:nth-child(3n + 1) {
         margin-left: 0;
+      }
+
+      &:nth-child(2n) {
+        margin-left: 50px;
       }
     }
 
@@ -61,7 +66,7 @@
     }
 
     .item-info {
-      margin-top: 18px;
+      margin-top: 13px;
 
       .item-title {
         margin: 0;
@@ -71,6 +76,10 @@
         font-size: $fs-1;
         line-height: 27px;
         text-transform: capitalize;
+
+        @media (max-width: $breakpoint-xs-max) {
+          font-size: 16px;
+        }
       }
 
       .item-footer {

@@ -90,8 +90,8 @@
       margin-left: $base * 6;
 
       @media (max-width: $breakpoint-xs-max) {
-        margin-left: 0;
         padding-top: 3px;
+        margin-left: 0;
       }
     }
 
