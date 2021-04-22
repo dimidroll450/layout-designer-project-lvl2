@@ -10,15 +10,15 @@
   <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header absolute w-100p fs-11 bg-transparent">
     <div class="outer-wrap">
-      <div class="main-nav flex">
-        <div href="#" class="logo flex">
-          <img src="./images/logo.svg" alt="Logo" class="logo-img">
-          <span class="logo-text white uppercase">Music box</span>
+      <div class="main-nav relative flex">
+        <div href="#" class="logo flex ai-center">
+          <img src="./images/logo.svg" alt="Logo" class="w-24 h-24">
+          <span class="block ml-16 white uppercase">Music box</span>
         </div>
-        <nav class="nav">
-          <ul class="nav-wrapper flex uppercase">
+        <nav class="nav ml-88">
+          <ul class="nav-wrapper flex ai-center uppercase">
             <li class="item">
               <a href="./index.html" class="active">Главная</a>
             </li>
@@ -33,13 +33,13 @@
             </li>
           </ul>
         </nav>
-        <form class="search">
-          <input type="search" placeholder="Поиск..." id="search-input" class="search-input uppercase">
+        <form class="search absolute">
+          <input type="search" placeholder="Поиск..." id="search-input" class="search-input b-none b-radius-50 uppercase">
         </form>
       </div>
     </div>
   </header>
-  <section class="page-description bg-banner" id="page-description">
+  <section class="page-description bg-banner p-tb-200 white ta-c" id="page-description">
       <div class="outer-wrap">
         <h1 class="mobile-mt-50">Онлайн музыка где угодно</h1>
         <h2 class="m-0">Без ограничений</h2>
@@ -51,47 +51,45 @@
         </form>
       </div>
     </section>
-  <main class="flex fd-column ai-center">
-    <section class="page-pricing outer-wrap" id="page-pricing">
-      <div>
-        <h2>Формы подписки</h2>
-        <div class="section-card flex">
-          <div class="pricing-item bg-free">
-            <h3>Бесплатная</h3>
-            <p class="pricing-value">
-              0 <sup>руб.</sup>
-            </p>
-            <a href="#" class="btn btn-disabled">Оформить</a>
-            <p class="pricing-footer">
-              Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама
-            </p>
-          </div>
-          <div class="pricing-item bg-stand">
-            <h3>Стандартная</h3>
-            <p class="pricing-value">
-              250 <sup>руб.</sup>
-            </p>
-            <a href="#" class="btn btn-disabled">Оформить</a>
-            <p class="pricing-footer">
-              Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве
-            </p>
-          </div>
-          <div class="pricing-item bg-premium">
-            <h3>Премиум</h3>
-            <p class="pricing-value">
-              500 <sup>руб.</sup>
-            </p>
-            <a href="#" class="btn btn-disabled">Оформить</a>
-            <p class="pricing-footer">
-              Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве
-            </p>
-          </div>
+  <main class="flex fd-column ai-center pb-100">
+    <section class="page-pricing outer-wrap pt-100 ta-c fs-16 white" id="page-pricing">
+      <h2>Формы подписки</h2>
+      <div class="section-card flex">
+        <div class="pricing-item bg-free">
+          <h3>Бесплатная</h3>
+          <p class="pricing-value">
+            0 <sup>руб.</sup>
+          </p>
+          <a href="#" class="btn btn-disabled">Оформить</a>
+          <p class="pricing-footer">
+            Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама
+          </p>
         </div>
-        <p class="page-pricing-footer">
-          На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы
-          можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету
-        </p>
+        <div class="pricing-item bg-stand">
+          <h3>Стандартная</h3>
+          <p class="pricing-value">
+            250 <sup>руб.</sup>
+          </p>
+          <a href="#" class="btn btn-disabled">Оформить</a>
+          <p class="pricing-footer">
+            Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве
+          </p>
+        </div>
+        <div class="pricing-item bg-premium">
+          <h3>Премиум</h3>
+          <p class="pricing-value">
+            500 <sup>руб.</sup>
+          </p>
+          <a href="#" class="btn btn-disabled">Оформить</a>
+          <p class="pricing-footer">
+            Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве
+          </p>
+        </div>
       </div>
+      <p class="page-pricing-footer">
+        На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы
+        можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету
+      </p>
     </section>
     <section class="page-news outer-wrap" id="page-news">
       <div>
@@ -136,11 +134,11 @@
         </div>
       </div>
     </section>
-    <section class="page-app outer-wrap pt-100" id="page-app">
+    <section class="outer-wrap pt-100" id="page-app">
       <div>
         <h2 class="ta-c mb-48 white">Мобильное приложение</h2>
-        <div class="app flex ai-center-sm-max fd-column-reverse-sm-max">
-          <div class="content fs-16 fb-50p">
+        <div class="flex ai-center-sm-max fd-column-reverse-sm-max">
+          <div class="fs-16 fb-50p">
             <p class="pt-16">
               Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства 
               на базе операционных систем Androind и iOS.
@@ -156,7 +154,7 @@
       </div>
     </section>
   </main>
-  <footer class="bg-linear">
+  <footer class="bg-linear white">
     <div class="footer-info">
         <div class="outer-wrap flex">
           <div class="section">
@@ -225,7 +223,7 @@
     <hr>
     <div class="outer-wrap">
       <div class="nav m-0">
-        <div class="nav-wrapper flex">
+        <div class="nav-wrapper flex ai-center">
           <a class="item" href="#">Магазин</a>
           <a class="item" href="#">Обслуживание</a>
           <a class="item" href="#">Блог</a>

@@ -10,15 +10,15 @@
     <title>Artist</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header absolute w-100p fs-11 bg-transparent">
       <div class="outer-wrap">
-        <div class="main-nav flex">
-          <div href="#" class="logo flex">
-            <img src="./images/logo.svg" alt="Logo" class="logo-img">
-            <span class="logo-text white uppercase">Music box</span>
+        <div class="main-nav relative flex">
+          <div href="#" class="logo flex ai-center">
+            <img src="./images/logo.svg" alt="Logo" class="w-24 h-24">
+            <span class="block ml-16 white uppercase">Music box</span>
           </div>
-          <nav class="nav">
-            <ul class="nav-wrapper flex uppercase">
+          <nav class="nav ml-88">
+            <ul class="nav-wrapper flex ai-center uppercase">
               <li class="item">
                 <a href="./index.html" class="active">Главная</a>
               </li>
@@ -33,14 +33,14 @@
               </li>
             </ul>
           </nav>
-          <form class="search">
-            <input type="search" placeholder="Поиск..." id="search-input" class="search-input uppercase">
+          <form class="search absolute">
+            <input type="search" placeholder="Поиск..." id="search-input" class="search-input b-none b-radius-50 uppercase">
           </form>
         </div>
       </div>
     </header>
-    <section class="page-description bg-morten white" id="page-description">
-        <div class="outer-wrap ta-left mobile-mt">
+    <section class="page-description bg-morten p-tb-200 white" id="page-description">
+        <div class="outer-wrap">
           <h1 class="artist-title">Morten Harket</h1>
           <p class="fs-16 mt-16">24 875 поклонников</p>
           <div class="mt-48 btn-group ">
@@ -55,7 +55,7 @@
           </div>
         </div>
       </section>
-    <main class="flex fd-column ai-center">
+    <main class="flex fd-column ai-center pb-100">
       <section class="page-popular-track outer-wrap" id="page-popular-track">
         <div>
           <h2 class="white mb-48">Популярные треки</h2>
@@ -123,7 +123,7 @@
           </div>
         </div>
       </section>
-      <section class="page-discography outer-wrap" id="page-discography">
+      <section class="page-discography outer-wrap pt-100" id="page-discography">
         <div>
           <h2 class="mb-25">Дискография</h2>
           <div class="flex-container discography">
@@ -172,7 +172,7 @@
           </div>
         </div>
       </section>
-      <section class="page-similar outer-wrap" id="page-similar">
+      <section class="page-similar outer-wrap pt-100" id="page-similar">
         <div>
           <h2 class="mb-25"> Похожие Исполнители</h2>
           <div class="flex-container similiar">
@@ -236,7 +236,7 @@
         </div>
       </section>
     </main>
-    <footer class="bg-linear">
+    <footer class="bg-linear white">
       <div class="footer-info">
           <div class="outer-wrap flex">
             <div class="section">
@@ -305,7 +305,7 @@
       <hr>
       <div class="outer-wrap">
         <div class="nav m-0">
-          <div class="nav-wrapper flex">
+          <div class="nav-wrapper flex ai-center">
             <a class="item" href="#">Магазин</a>
             <a class="item" href="#">Обслуживание</a>
             <a class="item" href="#">Блог</a>

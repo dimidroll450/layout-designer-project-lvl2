@@ -1,7 +1,6 @@
 @import './../variables.scss';
 
 footer {
-  color: $color-white;
   font-size: $fs-11;
   line-height: 24px;
 
@@ -47,7 +46,6 @@ footer {
   }
 
   .nav {
-    margin: 0;
     padding: 40px 0 45px 0;
 
     .nav-wrapper {
@@ -88,8 +86,4 @@ footer {
   .socials-item + .socials-item {
     margin-left: 24px;
   }
-}
-
-.bg-linear {
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }

@@ -1,24 +1,12 @@
 @import './../variables.scss';
 
 .header {
-  position: absolute;
   top: 25px;
 
-  width: 100%;
-
-  font-size: 11px;
   line-height: $lh-12;
-
-  background: transparent;
-
-  .outer-wrap {
-    padding-top: 0;
-  }
 }
 
 .main-nav {
-  position: relative;
-
   align-items: center;
 
   font-weight: $fw-700;
@@ -34,7 +22,6 @@
   }
 
   .search {
-    position: absolute;
     right: 0;
 
     width: $base * 62;
@@ -46,12 +33,10 @@
       padding: 5px 10px;
 
       font-size: 13px;
-      line-height: 15px;
+      line-height: $lh-15;
 
       background-color: $color-dark;
 
-      border: none;
-      border-radius: 50px;
       outline: none;
     }
 
@@ -68,12 +53,7 @@
 }
 
 .nav {
-  margin-left: $base * 22;
-
   .nav-wrapper {
-    align-items: center;
-    justify-content: start;
-
     .item {
       a {
         &:hover {
@@ -104,19 +84,5 @@
 
   @media (max-width: $breakpoint-xs-max) {
     margin-left: 0;
-  }
-}
-
-.logo {
-  align-items: center;
-
-  &-img {
-    width: $base * 6;
-    height: $base * 6;
-  }
-
-  &-text {
-    display: block;
-    margin-left: $base * 4;
   }
 }

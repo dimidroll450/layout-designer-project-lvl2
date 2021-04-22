@@ -1,13 +1,5 @@
 @import './../variables.scss';
 
-.page-pricing {
-  padding-top: 100px;
-
-  color: $color-white;
-  font-size: 16px;
-  text-align: center;
-}
-
 .section-card {
   @media (max-width: 900px) {
     flex-wrap: wrap;
@@ -71,21 +63,6 @@
 
     text-transform: uppercase;
   }
-}
-
-.bg-free {
-  background: url('./../../images/subscribe_1.png') no-repeat;
-  background-size: cover;
-}
-
-.bg-stand {
-  background: url('./../../images/subscribe_2.png') no-repeat;
-  background-size: cover;
-}
-
-.bg-premium {
-  background: url('./../../images/subscribe_3.png') no-repeat;
-  background-size: cover;
 }
 
 .page-pricing-footer {

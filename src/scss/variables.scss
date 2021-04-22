@@ -26,10 +26,12 @@
 $base: 4px;
 
 $breakpoint-md-max: 991.98px;
-$breakpoint-md-min: 768px;
 $breakpoint-sm: 767.98px;
-$breakpoint-sm-min: 576px;
 $breakpoint-xs-max: 575.98px;
+
+$breakpoint-xl-min: 1200px;
+$breakpoint-md-min: 768px;
+$breakpoint-sm-min: 576px;
 
 // === Colors ===
 $color-black: #08020d;
@@ -65,5 +67,6 @@ $lh-90: 90px;
 $lh-57: 57px;
 $lh-45: 45px;
 $lh-27: 27px;
+$lh-15: 15px;
 $lh-12: 12.8px;
 // === /Line-height ===
