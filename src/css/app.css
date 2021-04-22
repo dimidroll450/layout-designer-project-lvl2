@@ -876,7 +876,7 @@ input {
 
 .flex-container .discography-item .item-info,
 .flex-container .artist-item .item-info {
-  margin-top: 13px; }
+  margin-top: 12px; }
 
 .flex-container .discography-item .item-info .item-title,
 .flex-container .artist-item .item-info .item-title {
@@ -884,8 +884,8 @@ input {
   color: #FFF;
   font-weight: 700;
   font-size: 18px;
-  letter-spacing: -0.8px;
   line-height: 27px;
+  letter-spacing: -0.8px;
   text-transform: capitalize; }
 
 .flex-container .discography-item .item-info .item-footer,
