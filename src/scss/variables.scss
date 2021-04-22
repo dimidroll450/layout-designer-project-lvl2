@@ -25,9 +25,11 @@
 
 $base: 4px;
 
-$breakpoint-sm-min: 576px;
-$breakpoint-xs-max: $breakpoint-sm-min - 1;
+$breakpoint-md-max: 991.98px;
 $breakpoint-md-min: 768px;
+$breakpoint-sm: 767.98px;
+$breakpoint-sm-min: 576px;
+$breakpoint-xs-max: 575.98px;
 
 // === Colors ===
 $color-black: #08020d;

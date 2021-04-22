@@ -133,6 +133,16 @@ hr {
   }
 }
 
+.m-0-xs-max {
+  @media (max-width: $breakpoint-xs-max) {
+    margin: 0 !important;
+  }
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
 .m-0 {
   margin: 0;
 }
@@ -169,6 +179,10 @@ hr {
   padding-top: 16px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .ta-c {
   text-align: center;
 }
@@ -177,12 +191,20 @@ hr {
   text-align: left;
 }
 
+/* === FLEX === */
+
 .flex {
   display: flex;
 }
 
 .fd-column {
   flex-direction: column;
+}
+
+.fd-column-reverse-sm-max {
+  @media (max-width: $breakpoint-sm) {
+    flex-direction: column-reverse;
+  }
 }
 
 .jc-space_between {
@@ -196,6 +218,18 @@ hr {
 .ai-start {
   align-items: start;
 }
+
+.ai-center-sm-max {
+  @media (max-width: $breakpoint-sm) {
+    align-items: center;
+  }
+}
+
+.fb-50p {
+  flex-basis: 50%;
+}
+
+/* === FLEX === */
 
 .va-center {
   vertical-align: middle;
