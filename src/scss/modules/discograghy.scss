@@ -75,11 +75,8 @@
         font-weight: $fw-700;
         font-size: $fs-1;
         line-height: 27px;
+        letter-spacing: -0.8px;
         text-transform: capitalize;
-      }
-
-      .fs-16 {
-        font-size: 16px;
       }
 
       .item-footer {
@@ -90,7 +87,7 @@
       }
 
       @media (max-width: $breakpoint-xs-max) {
-        width: 137px;
+        width: 138px;
       }
     }
   }
