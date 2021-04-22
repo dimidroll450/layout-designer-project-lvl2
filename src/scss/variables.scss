@@ -2,24 +2,21 @@
   font-weight: 400;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Regular.ttf') format('ttf')
+  src: url('./../fonts/Roboto-Regular.ttf') format('ttf');
 }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Medium.ttf') format('ttf')
+  src: url('./../fonts/Roboto-Medium.ttf') format('ttf');
 }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   font-style: normal;
-  src:
-    url('./../fonts/Roboto-Bold.ttf') format('ttf')
+  src: url('./../fonts/Roboto-Bold.ttf') format('ttf');
 }
 
 @mixin roboto {
@@ -33,15 +30,15 @@ $breakpoint-xs-max: $breakpoint-sm-min - 1;
 $breakpoint-md-min: 768px;
 
 // === Colors ===
-$color-black: #08020D;
-$color-gray:  #E0E0E0;
-$color-dark-gray: #CACACA;
-$color-dark: #3C3B3D;
-$color-green: #34C176;
-$color-orange: #F89202;
-$color-purple: #5328A1;
-$color-red: #95390C;
-$color-white: #FFF;
+$color-black: #08020d;
+$color-gray:  #e0e0e0;
+$color-dark-gray: #cacaca;
+$color-dark: #3c3b3d;
+$color-green: #34c176;
+$color-orange: #f89202;
+$color-purple: #5328a1;
+$color-red: #95390c;
+$color-white: #fff;
 // === /Colors ===
 
 // === Font=size ===

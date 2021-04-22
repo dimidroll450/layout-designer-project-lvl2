@@ -3,10 +3,12 @@
 body {
   @include roboto;
 
-  background-color: $color-black;
+  color: $color-dark-gray;
+
   font-size: $fs-1;
   line-height: 1.5;
-  color: $color-dark-gray;
+
+  background-color: $color-black;
 }
 
 .outer-wrap {
@@ -83,16 +85,17 @@ h3 {
 h4 {
   margin: 0;
 
+  color: $color-white;
+
   font-weight: $fw-700;
   font-size: $fs-1;
   line-height: 27px;
-  color: $color-white;
 }
 
 a,
 ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -106,7 +109,9 @@ ul {
 
 hr {
   position: relative;
+
   margin: 0;
+
   border: 1px solid #e0e0e0;
 }
 
@@ -125,7 +130,7 @@ hr {
 .mobile-mt-50 {
   @media (max-width: $breakpoint-xs-max) {
     margin-top: 50px;
-   }
+  }
 }
 
 .m-0 {
@@ -181,7 +186,7 @@ hr {
 }
 
 .jc-space_between {
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .ai-center {
@@ -199,21 +204,22 @@ hr {
 .btn {
   display: inline-block;
   padding: 20px 30px;
+
   border: none;
   border-radius: 5px;
   cursor: pointer;
 
   &-img {
-    vertical-align: middle;
-  }
-
-  &-img {
     margin-right: 16px;
+
+    vertical-align: middle;
   }
 
   &-primary {
     color: $color-white;
+
     background-color: $color-green;
+
     &:hover {
       background-color: lighten($color-green, 5%);
     }
@@ -231,9 +237,10 @@ hr {
   &-download {
     padding: 16px 40px;
 
-    font-size: 12.8px;
-  
     color: $color-white;
+
+    font-size: 12.8px;
+
     background-color: $color-red;
     border-radius: 32px;
 
